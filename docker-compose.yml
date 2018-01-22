@@ -32,6 +32,17 @@ services:
       image: elasticsearch:5.4-alpine
       container_name: fiareads-elasticsearch
 
+    phpmyadmin:
+        image: phpmyadmin/phpmyadmin
+        links:
+          - mariadb:mysql
+        ports:
+          - 8084:80
+        environment:
+          PMA_USER: db
+          PMA_PASSWORD: db
+          PMA_HOST: mariadb
+
     webserver:
       image: nginx:alpine
       container_name: fiareads-webserver
