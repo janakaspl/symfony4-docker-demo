@@ -1,6 +1,8 @@
 Symfony Demo Application
 ========================
 
+[![Build Status](https://travis-ci.org/janakaspl/symfony4-docker-demo.svg?branch=master)](https://travis-ci.org/janakaspl/symfony4-docker-demo)
+
 The "Symfony Demo Application" is a reference application created to show how
 to develop Symfony applications following the recommended best practices.
 
