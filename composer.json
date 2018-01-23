@@ -1,4 +1,6 @@
 {
+    "name":"janakaspl/symfonydemo",
+    "description": "Dockerized Symfony demo application",
     "license": "MIT",
     "type": "project",
     "require": {
